@@ -1,0 +1,87 @@
+body{
+    height: 100vw;
+}
+
+.navbar-wraper{
+    top: 0;
+    height: 70px;
+    /* height: calc(100% - 70px); */
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.sidebar{
+    top: 70px;
+    position: fixed;
+    background-color: red;
+    height: 800px;
+    width: 200px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-wrapper{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin: 10px 0 0 40px;
+}
+
+.menu{
+    margin: 20px 40px 0 0;
+    color: white;
+}
+
+.ul{
+    list-style-type: none;
+    margin: 5px;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 40%;
+}
+
+.text{
+    color: white;
+}
+
+.img2{
+    height: 100px;
+    width: 50px;
+    /* border-radius: 100px; */
+}
+
+.home{
+    margin: 30px;
+    color: white;
+}
+
+.books{
+    margin: 30px;
+    color: white;
+}
+
+.currently{
+    margin: 30px;
+    color: white;
+}
+
+.logout{
+    margin: 30px;
+    color: white;
+    
+}
